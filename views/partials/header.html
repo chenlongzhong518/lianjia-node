@@ -1,0 +1,86 @@
+<!--头部-->
+<header>
+    <div class="neirong clear-fix">
+        <div class="fl">
+            <a href="javascript:;" class="logo" title="链家网"></a>
+            <span class="dingwei"><i></i>北京</span>
+        </div>
+        <ul class="ul1 fr clear-fix">
+            <li>
+                <a href="javascript:;">二手房</a>
+            </li>
+            <li>
+                <a href="javascript:;">新房</a>
+            </li>
+            <li>
+                <a href="javascript:;">租房</a>
+            </li>
+            <li><img src="img/lvju.png" alt="" class="lvju"/>
+                <a href="javascript:;">旅居地产</a>
+            </li>
+            <li>
+                <a href="javascript:;">海外</a>
+            </li>
+            <li>
+                <a href="javascript:;">小区</a>
+            </li>
+            <li>
+                <a href="javascript:;">经纪人</a>
+            </li>
+            <li>
+                <a href="javascript:;">指南</a>
+            </li>
+            <li>
+                <a href="javascript:;">工具</a>
+            </li>
+            <li>
+                <a href="javascript:;">经验</a>
+            </li>
+            <li class="yezhu"><i></i>
+                <a href="javascript:;">业主</a>
+            </li>
+        </ul>
+        <div class="dlzc">
+            <i></i>
+            <a href="javascript:;" class="dl">登录</a>
+            <a href="users/login" class="ljzc">立即注册</a>
+        </div>
+        <img src="img/banner-text.png" alt="" class="ljgs fl"/>
+        <div class="lfxx">
+            <ul class="ul2">
+                <li>北京链家在售新房楼盘 237 个</li>
+                <li>北京链家真实在售二手房 23100 套</li>
+                <li>北京链家真实租房 13379 套</li>
+                <li>北京链家在售新房楼盘 237 个</li>
+                <li>北京链家真实在售二手房 23100 套</li>
+            </ul>
+        </div>
+        <div class="kszf" ng-controller="kszf">
+            <ul class="ul3 clear-fix" ng-init="currentIndex=0">
+                <li ng-repeat="v in searchData"><span ng-click="tab($index)">{[{v.title}]}</span>
+                </li>
+            </ul>
+            <i ng-style="{'left':searchData[currentIndex].left}"></i>
+            <div class="sug-tips" ng-show="suggestList.length > 1 && keyword && !isBlur">
+                <ul id="wenda" data-bl="sug" data-el="history">
+                    <li class="hot-name"><span class="hot-tips">热门搜索</span><span class="del">清空</span></li>
+                    <div class="list">
+                        <li ng-repeat="suggest in suggestList">
+                            <a href="https://bj.lianjia.com/wenda/liebiao/b2001" data-log_index="1"
+                               data-log_value="税费计算">{[{suggest.title}]}{[{suggest.region}]}</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="input clear-fix" ng-init="isBlur = false">
+                <input type="text" ng-model="keyword" placeholder="{[{searchData[currentIndex].text}]}"
+                       class="cz fl" ng-change="suggest();" ng-focus="isBlur=false" ng-blur="isBlur=!isBlur"/>
+                <input type="button" name="" id="2" value="{[{searchData[currentIndex].btn}]}" class="zf fr"/>
+
+            </div>
+        </div>
+        <div class="pen">
+            <a href="javascript:;"><img src="img/php3X11MP.png" alt=""/>关于仿冒我公司进行不正当竞争行为的郑重声明</a>
+            <a href="javascript:;"><img src="img/phpAPdvEm.png" alt=""/>房地产中介诚信服务承诺及保证书</a>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,83 @@
+<!--内容1-找房-->
+<selection class="nr1">
+    <ul>
+        {{#each hours}}
+        <li>
+            <a href="javascript:;">
+                <img src="{{this.src}}" alt="" />
+                <b>{{this.title}}</b>
+                <p>{{this.content}}</p>
+            </a>
+        </li>
+        {{/each}}
+    </ul>
+</selection>
+<!--内容2-一链倾城-->
+<selection class="nr2">
+    <div class="ylqc">
+        <div class="title"></div>
+        <p>集二手、新房、租房功能于一体，随时随地任性找房。IM匿名咨询让您放心，消息动态推送让您省心，服务承诺让您安心，数据百科锦囊让您感受贴心漫漫找房路，我们努力为您想更多。</p>
+        <div class="dowmload clear-fix">
+            <div class="app fl">
+                <a href="javascript:;" class="iphone"></a>
+                <a href="javascript:;" class="android"></a>
+            </div>
+            <div class="ewm fl"></div>
+        </div>
+    </div>
+</selection>
+<!--内容3-新房-->
+<selection class="nr3">
+    <div class="xinfang" ng-controller="xfxqh">
+        <div class="name"></div>
+        <p>真实信息准确同步，楼盘动态一手掌握<a href="javascript:;" class="fr">更多北京新房</a></p>
+        <ul class="clear-fix">
+            <li ng-repeat="v in xfarr" class="fl">
+                <a href="javascript:;" class="picture">
+                    <img ng-src="{[{v.img}]}" alt="" width="350px" height="260px"/>
+                    <div class="bg"></div>
+                    <div>
+                        <span class="title">{[{v.title}]}</span>
+                        <i class="price">{[{v.price}]}</i>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</selection>
+<!--内容4-二手好房-->
+<selection class="nr4">
+    <div class="ershoufang" ng-controller="eshf">
+        <div class="name"></div>
+        <p>好房源那么多，我们为你精选，链家网会越<a href="javascript:;" class="fr">更多北京二手房</a></p>
+        <ul class="clear-fix">
+            <li ng-repeat="v in esfarr" class="fl">
+                <a href="javascript:;">
+                    <img ng-src="{[{v.img}]}" alt="" width="250px" height="192px" />
+                    <span class="price">{[{v.price}]}</span>
+                    <div class="xinxi">
+                        <p class="p1">{[{v.title}]} </p>
+                        <p class="p2">
+                            <span>{[{v.ms1}]}</span>
+                            <span>{[{v.ms2}]}</span>
+                            <span>{[{v.ms3}]}</span>
+                        </p>
+                    </div>
+                    <p>{[{v.ly}]}</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</selection>
+<!--内容5-链接真实房源-->
+<selection class="nr5 clear-fix">
+    <div class="left fl"></div>
+    <div class="right fr">
+        <p>
+            真实存在，真实在售，真实价格，真实图片！<br />
+            链家郑重向用户承诺：真实房源，假一赔百元！
+        </p>
+        <input type="text" placeholder="请输入链家编号查询真伪..." />
+        <span class="cztp"></span>
+    </div>
+</selection>

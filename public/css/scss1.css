@@ -1,0 +1,793 @@
+header {
+    display: block;
+    width: 100%;
+    height: 610px;
+    background: url("../img/bannerV2.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center 0;
+    background-position-y: -50px;
+    padding-top: 30px;
+}
+
+header .neirong {
+    width: 1150px;
+    height: 580px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .neirong .logo {
+    margin-right: 10px;
+    margin-top: -5px;
+    width: 137px;
+    height: 66px;
+    display: inline-block;
+    float: left;
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: 10px -365px;
+}
+
+header .neirong .dingwei {
+    display: inline-block;
+    height: 27px;
+    line-height: 27px;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+header .neirong .dingwei i {
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -189px -20px;
+    position: relative;
+    margin-right: 5px;
+    top: 1px;
+}
+
+header .neirong .ul1 {
+    padding-top: 26px;
+    text-align: right;
+}
+
+header .neirong .ul1 li {
+    float: left;
+}
+
+header .neirong .ul1 li a {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+header .neirong .ul1 .lvju {
+    position: relative;
+    top: -4px;
+    margin-left: 20px;
+    margin-right: -18px;
+    width: 19px;
+    height: 22px;
+}
+
+header .neirong .ul1 .yezhu i {
+    width: 7px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: -13.5px;
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -225px -20px;
+}
+
+header .neirong .dlzc {
+    width: 103px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .neirong .dlzc i {
+    width: 17px;
+    height: 16px;
+    display: inline-block;
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -203px -20px;
+    position: relative;
+    top: 3px;
+}
+
+header .neirong .dlzc a {
+    color: #fff;
+}
+
+header .neirong .ljgs {
+    display: block;
+    width: 100%;
+    padding: 120px 310px 0;
+}
+
+header .neirong .lfxx {
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+}
+
+header .neirong .lfxx .ul2 {
+    width: 100%;
+    position: relative;
+    top: -35px;
+}
+
+header .neirong .lfxx .ul2 li {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+header .neirong .kszf {
+    width: 773px;
+    height: 89px;
+    margin: 20px auto 0;
+    position: relative;
+}
+
+header .neirong .kszf .ul3 li {
+    float: left;
+    text-align: center;
+}
+
+header .neirong .kszf .ul3 li span {
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header .neirong .kszf .ul3 li span:hover {
+    color: #eee;
+}
+
+header .neirong .kszf i {
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 10px solid #fff;
+    transition: 0.3s all ease;
+    position: relative;
+    left: 20px;
+}
+
+header .neirong .input {
+    height: 55px;
+    width: 100%;
+}
+
+header .neirong .input .cz {
+    width: 646px;
+    height: 55px;
+    line-height: 55px;
+    padding-left: 20px;
+    border: 0;
+    border-radius: 2px 0 0 2px;
+    font-size: 14px;
+}
+
+header .neirong .input .zf {
+    width: 127px;
+    height: 100%;
+    background: #00ae66;
+    border: 0;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+header .neirong .pen {
+    margin-top: 140px;
+}
+
+header .neirong .pen a {
+    color: #bbb;
+}
+
+header .neirong .pen a img {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 7px;
+    position: relative;
+    left: 0;
+    top: 1px;
+}
+
+header .neirong .pen a:hover {
+    color: #fff;
+}
+
+selection.nr1 {
+    display: block;
+    width: 1150px;
+    height: 245px;
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+selection.nr1 ul {
+    width: 1150px;
+    height: 100%;
+}
+
+selection.nr1 ul [ng-cloak] {
+    display: none;
+}
+
+selection.nr1 ul li {
+    float: left;
+}
+
+selection.nr1 ul li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 287.5px;
+    height: 145px;
+}
+
+selection.nr1 ul li a img {
+    width: 76px;
+    height: 65px;
+    margin: 0 auto 17px;
+    display: block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+selection.nr1 ul li a b {
+    font-size: 18px;
+    color: #394043;
+}
+
+selection.nr1 ul li a p {
+    width: 183px;
+    margin: 3px auto 5px;
+    font-size: 12px;
+    color: #b0b3b4;
+    line-height: 18px;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(-5px);
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+selection.nr1 ul li:hover img {
+    animation: 1.5s move linear alternate infinite;
+}
+
+selection.nr2 {
+    display: block;
+    width: 100%;
+    height: 524px;
+    padding: 85px 100px;
+    background: url(../img/bg-app.jpg) center top;
+}
+
+selection.nr2 .ylqc {
+    width: 479px;
+    height: 350px;
+}
+
+selection.nr2 .ylqc .title {
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -448px -379px;
+    width: 286px;
+    height: 118px;
+}
+
+selection.nr2 .ylqc p {
+    margin-top: 22px;
+    line-height: 22px;
+    display: block;
+}
+
+selection.nr2 .ylqc .dowmload {
+    width: 479px;
+    height: 104px;
+    margin-top: 40px;
+}
+
+selection.nr2 .ylqc .dowmload .app .iphone {
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -20px -139px;
+    display: block;
+    width: 134px;
+    height: 44px;
+}
+
+selection.nr2 .ylqc .dowmload .app .android {
+    margin-top: 10px;
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -20px -197px;
+    display: block;
+    width: 134px;
+    height: 44px;
+}
+
+selection.nr2 .ylqc .dowmload .ewm {
+    margin-left: 15px;
+    background: url("../img/getDownloadQr.png") no-repeat;
+    background-size: 100%;
+    width: 102px;
+    height: 102px;
+}
+
+selection.nr3 {
+    display: block;
+    width: 100%;
+    height: 470px;
+    background: #fff;
+    padding: 45px 100px 60px 100px;
+}
+
+selection.nr3 .xinfang {
+    width: 1150px;
+    height: 365px;
+}
+
+selection.nr3 .xinfang .name {
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -20px -56px;
+    width: 158px;
+    height: 30px;
+}
+
+selection.nr3 .xinfang p {
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+selection.nr3 .xinfang p a {
+    color: #394043;
+    font-size: 14px;
+}
+
+selection.nr3 .xinfang p a:hover {
+    text-decoration: underline;
+}
+
+selection.nr3 .xinfang ul li {
+    margin-right: 50px;
+}
+
+selection.nr3 .xinfang ul li a {
+    display: block;
+    width: 350px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+
+selection.nr3 .xinfang ul li a img {
+    transition: 1s all ease;
+}
+
+selection.nr3 .xinfang ul li a .bg {
+    width: 350px;
+    height: 260px;
+    background: #000;
+    opacity: .3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+selection.nr3 .xinfang ul li a div {
+    width: 350px;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+selection.nr3 .xinfang ul li a div span {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+selection.nr3 .xinfang ul li a div i {
+    display: block;
+    font-weight: 700;
+    color: #fff2ab;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+selection.nr3 .xinfang ul li:last-child {
+    margin-right: 0px;
+}
+
+selection.nr4 {
+    display: block;
+    width: 100%;
+    height: 492px;
+    background: #f2f2f3;
+    padding: 50px 100px 30px 100px;
+}
+
+selection.nr4 .ershoufang {
+    width: 1150px;
+    height: 412px;
+}
+
+selection.nr4 .ershoufang .name {
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -19px -94px;
+    width: 248px;
+    height: 30px;
+}
+
+selection.nr4 .ershoufang p {
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+selection.nr4 .ershoufang p a {
+    color: #394043;
+    font-size: 14px;
+}
+
+selection.nr4 .ershoufang p a:hover {
+    text-decoration: underline;
+}
+
+selection.nr4 .ershoufang ul {
+    width: 100%;
+    height: 323px;
+}
+
+selection.nr4 .ershoufang ul li {
+    margin-right: 50px;
+}
+
+selection.nr4 .ershoufang ul li a {
+    display: block;
+    width: 250px;
+    height: 323px;
+    position: relative;
+}
+
+selection.nr4 .ershoufang ul li a .price {
+    padding: 0 8px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #394043;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+selection.nr4 .ershoufang ul li a .xinxi {
+    width: 100%;
+    height: 75px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+selection.nr4 .ershoufang ul li a .xinxi .p1 {
+    height: 30px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #394043;
+    padding: 0px 18px;
+    margin: 0px;
+}
+
+selection.nr4 .ershoufang ul li a .xinxi .p2 {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 18px;
+    margin: 0px;
+}
+
+selection.nr4 .ershoufang ul li a .xinxi .p2 span {
+    color: #999;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+selection.nr4 .ershoufang ul li a p {
+    height: 56px;
+    line-height: 45px;
+    color: #aaa;
+    font-size: 12px;
+    margin: 0px;
+}
+
+selection.nr4 .ershoufang ul li:last-child {
+    margin-right: 0px;
+}
+
+selection.nr5 {
+    display: block;
+    width: 100%;
+    height: 235px;
+    background: url("../img/truth-bgV2.jpg") no-repeat;
+    padding: 63px 55px 60px 100px;
+}
+
+selection.nr5 .left {
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -19px -254px;
+    width: 501px;
+    height: 115px;
+}
+
+selection.nr5 .right p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0px;
+}
+
+selection.nr5 .right input {
+    width: 555px;
+    height: 45px;
+    margin-top: 15px;
+    padding: 8px 50px 8px 10px;
+}
+
+selection.nr5 .right .cztp {
+    background: url("../img/spriteV2_new.png") no-repeat;
+    background-position: -407px -20px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    left: -35px;
+    top: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 426px;
+    background: url("../img/footer-bg.jpg") no-repeat;
+}
+
+footer .dibu {
+    width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer .dibu .title {
+    height: 75px;
+    line-height: 75px;
+    border-bottom: 1px solid #393939;
+}
+
+footer .dibu .title ul li a {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+footer .dibu .title span {
+    font-size: 14px;
+    color: #7dcfa0;
+}
+
+footer .dibu .zhaof {
+    width: 100%;
+    padding: 13px 150px 20px 0px;
+    border-bottom: 1px solid #393939;
+}
+
+footer .dibu .zhaof .ul1 li {
+    padding: 8px 10px;
+    background: #121212;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    color: #888c8e;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+footer .dibu .zhaof .ul2 li a {
+    color: #888c8e;
+    font-size: 12px;
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+footer .dibu .bq {
+    color: #888c8e;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 23px;
+}
+
+footer .dibu .gaw {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 4px;
+    color: #888c8e;
+    font-size: 12px;
+}
+
+footer .dibu .gaw img {
+    margin-right: 5px;
+}
+
+.dlck {
+    width: 450px;
+    height: 330px;
+    background-color: white;
+    top: -495px;
+    left: 430px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #999999;
+    position: absolute;
+    top: 125px;
+    position: fixed;
+    display: none;
+    z-index: 4;
+}
+
+.dlck samp a {
+    color: #e3392c;
+}
+
+.dlck ul li {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.dlck ul li:first-child {
+    margin-top: 50px;
+}
+
+.dlck input {
+    width: 350px;
+    height: 45px;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 0px 34px;
+    outline: none;
+}
+
+.dlck .ip1 input {
+    background: url(../img/dlsjtb.jpg) no-repeat 15px center;
+}
+
+.dlck .ip2 input {
+    background: url(../img/dlmmtb.jpg) no-repeat 15px center;
+}
+
+.dlck .ip3 input {
+    width: 17px;
+    height: 17px;
+    margin-top: 5px;
+    float: left;
+}
+
+.dlck .ip3 span {
+    float: left;
+    margin-top: 4px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.dlck .ip4 input {
+    background-color: #38ab68;
+    width: 354px;
+    height: 49px;
+    color: white;
+    font-size: 25px;
+}
+
+.dlck .ip4 input:active {
+    background-color: #008000;
+    color: #00FFFF;
+}
+
+.dlck span:hover,
+.dlck samp:hover {
+    color: #0000FF;
+    cursor: pointer;
+}
+
+.dlbj {
+    width: 100%;
+    height: 640px;
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    position: fixed;
+    display: none;
+}
+
+.daoding {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background: gold;
+    display: none;
+    cursor: pointer;
+}
+
+.sug-tips {
+    position: absolute;
+    top: 94px;
+    left: -1px;
+    width: 648px;
+    background: #fff;
+    z-index: 9999999;
+}
+
+.sug-tips ul {
+    border: 1px solid #000;
+    border-top: 0;
+}
+
+.sug-tips ul li {
+    line-height: 32px;
+    padding-left: 15px;
+}
+
+/*# sourceMappingURL=scss1.css.map */

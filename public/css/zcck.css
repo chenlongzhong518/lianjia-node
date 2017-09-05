@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0px;
+	background-color: #f5f5f7;
+	list-style: none;
+	text-decoration:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+a:hover{
+	color: red;
+}
+.one{
+	height:60px;
+	width:100%;
+	line-height: 60px;
+	color: #dfdfdf;
+	border-bottom: 5px solid #f1f1f3;
+}
+.one font{
+	margin-left: 50px;
+}
+.one ul{
+	margin-top:9px;
+	margin-left: 5px;
+}
+.one ul li{
+	height:20px;
+	line-height: 20px;
+}
+.one a{
+	margin-left: 950px;
+}
+.two{
+	width: 100%;
+	height:675px;
+}
+.two .ft1{
+	display: block;
+	margin-top: 35px;
+}
+.two a{
+	margin-left: 120px;
+	font-size: 15px;
+	color:#00AE66;
+}
+.two input{
+	width:372px;
+	height:56px;
+	background-color: white;
+	font-size: 15px;
+	border-radius: 4px;
+	padding-left: 5px;
+	border:1px solid #ccc;
+	margin-top: 5px;
+}
+.two .ip1{
+	margin-top:20px;
+	margin-left: -15px ;
+}
+.two .ip55{	
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 17px;
+	height: 17px;	
+	margin-left: -68px;
+}
+.two .ip55 span{	
+	border: 1px solid red;
+	padding-left: 0px;
+}
+.two .xy{
+	margin-left: 5px;
+	color: #01b76c;
+}
+.two .ip12{
+	width: 115px;
+	height:35px;
+	background-color: #fcfcfc;
+	color: #5E5F61;
+	margin-left: -135px;
+	padding-left: 0px;
+}
+.two .ip6{
+	background-color: #01b76c;
+	width: 378px;
+	height:60px;
+	color: white;
+	font-size: 25px;	
+	padding-left: 0px;
+}
+.two .db,.two .hm{
+	color: #999da9;
+	font-size: 15px;
+}
+.two .hm{
+	display: block;
+	margin-top: 55px;
+}
+.ip6:active{
+	background-color:  #00AE66;
+	color: blue;
+}
+a:hover,.xy:hover{
+	color: blueviolet;
+}
+.ip12:hover{
+	background-color: #01b76c;
+	color: blue;
+}
+.one .fh:hover{
+	color: red;
+}
+
+
